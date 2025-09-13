@@ -1,0 +1,60 @@
+.downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+.downloads summary {
+    font-size: 2vh;
+    color: #767676;
+    font-family:'Minecraft-bold', sans-serif; 
+}
+
+.downloads h2 {
+    font-size: 3vh;
+    color: #767676;
+    font-family:'Minecraft-bold', sans-serif; 
+}
+
+.downloads p {
+  color: rgb(163, 157, 157);
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.download-item {
+    width: 80%;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    
+}
+
+.download-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #767676;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family:'Minecraft-bold', sans-serif;
+   
+}
+.download-link:hover {
+    background-color: #ccbebe;
+}
+
+

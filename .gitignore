@@ -1,0 +1,30 @@
+# Mac 0S
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Os files
+Icon
+Thumbs.db
+
+# VsCode
+.vscode/
+
+# Node (CIA)
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+
+# Build (CIA)
+dist/
+build/
+
+# Temp Files
+*~
+
+

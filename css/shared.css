@@ -1,0 +1,83 @@
+/* Shared CSS for Navbar and general styles */
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1vh 3vh;
+  width: 100%;
+  height: 6vh; 
+  /*background-image: url("../assets/images/NavBarGraphic.jpeg"); Disabled*/
+  background-color: #767676;
+  
+  background-size: cover; 
+  background-position: center; 
+  
+}
+
+/* All link text */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  text-transform: uppercase; 
+  letter-spacing: 1px;  
+  list-style: none;  
+  display: flex;
+  gap: 1.5vw;            
+}
+
+.nav-links a {
+  color: white;         
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+  font-size: 1.5vw;
+  font-weight: bold;
+
+  
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: bold;
+  white-space: nowrap; 
+}
+
+/* On hover */
+.nav-links a:hover {
+  color: #ccbebe;       
+}
+
+/* Font Handler */
+
+@font-face {
+font-family:'Minecraft-bold';
+src: url('../assets/fonts/minecraftbold-nmk1-webfont.woff2') format('truetype');
+src: url('../assets/fonts/minecraftbold-nmk1-webfont.woff') format('truetype');
+}
+
+@font-face {
+font-family:'Minecraft-bolditalic';
+src: url('../assets/fonts/minecraftbolditalic-1y1e-webfont.woff2') format('truetype');
+src: url('../assets/fonts/minecraftbolditalic-1y1e-webfont.woff') format('truetype');
+}
+
+@font-face {
+font-family:'Minecraft-italic';
+src: url('../assets/fonts/minecraftitalic-r8mo-webfont.woff2') format('truetype');
+src: url('../assets/fonts/minecraftitalic-r8mo-webfont.woff') format('truetype');
+}
+
+@font-face {
+font-family:'Minecraft-regular';
+src: url('../assets/fonts/minecraftregular-bmg3-webfont.woff2') format('truetype');
+src: url('../assets/fonts/minecraftregular-bmg3-webfont.woff') format('truetype');
+}
